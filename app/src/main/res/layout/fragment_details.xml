@@ -1,0 +1,138 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.jatin.ghumodelhi.DetailsFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:id="@+id/img_var"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Name"
+            android:textColor="#808080"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_name_var"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Name goes here"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#808080"
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_description_var"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Description goes here"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_timings"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Timings"
+            android:textSize="20sp"
+            android:textColor="#808080"/>
+
+        <TextView
+            android:id="@+id/tv_timings_var"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Timings go here"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_entry_fees"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Entry Fees:"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#808080"/>
+
+        <TextView
+            android:id="@+id/tv_entry_fees_var"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Entry fees goes here"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Location"
+            android:textSize="20sp"
+            android:textColor="#808080"/>
+
+        <TextView
+            android:id="@+id/tv_location_var"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Location goes here"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_web_link"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="#808080"
+            android:text="Web Link:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_web_link_var"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Link goes here"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_contact"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="#808080"
+            android:text="Contact"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_contact_var"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Contact Details go here"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+    </LinearLayout>
+</ScrollView>

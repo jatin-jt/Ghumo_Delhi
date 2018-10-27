@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static ArrayList<Places.Place> abc = Places.getPlaces();
 
-
+//T-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
